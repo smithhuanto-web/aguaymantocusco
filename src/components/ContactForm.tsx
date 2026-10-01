@@ -42,7 +42,7 @@ const tiposCliente = [
   "Otro",
 ];
 
-export function ContactForm({ defaultProduct }: { defaultProduct?: string }) {
+export function ContactForm({ defaultProduct }: { defaultProduct?: string | undefined }) {
   const [values, setValues] = useState<Values>({
     ...initial,
     producto: defaultProduct ?? "",
@@ -255,7 +255,7 @@ function Field({
   label: string;
   value: string;
   onChange: (v: string) => void;
-  error?: string;
+  error?: string | undefined;
   required?: boolean;
   type?: string;
   className?: string;

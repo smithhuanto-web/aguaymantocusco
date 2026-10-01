@@ -5,12 +5,12 @@ import { ContactForm } from "@/components/ContactForm";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import { contact, whatsappUrl } from "@/config/site";
 
-type Search = { producto?: string; servicio?: string };
+type Search = { producto?: string | undefined; servicio?: string | undefined };
 
 export const Route = createFileRoute("/contacto")({
   validateSearch: (s: Record<string, unknown>): Search => ({
-    producto: typeof s.producto === "string" ? s.producto : undefined,
-    servicio: typeof s.servicio === "string" ? s.servicio : undefined,
+    producto: typeof s["producto"] === "string" ? s["producto"] : undefined,
+    servicio: typeof s["servicio"] === "string" ? s["servicio"] : undefined,
   }),
   head: () => ({
     meta: [
