@@ -45,6 +45,8 @@
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
   --color-cream: var(--cream);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -92,6 +94,8 @@
   --accent-soft: oklch(0.885 0.12 85);
 
   --cream: oklch(0.985 0.018 92);
+  --whatsapp: oklch(0.72 0.19 150);
+  --whatsapp-foreground: oklch(1 0 0);
 
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0.018 92);
