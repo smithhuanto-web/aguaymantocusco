@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { VideoButton } from "@/components/VideoButton";
 import heroAguaymanto from "@/assets/hero-aguaymanto.jpg";
 import heroCampo from "@/assets/hero-campo.jpg";
 import heroCosecha from "@/assets/hero-cosecha.jpg";
@@ -129,6 +130,7 @@ export function HeroSlider() {
                   </Button>
                 ))}
               </div>
+              <VideoButton />
             </div>
           ))}
         </div>
