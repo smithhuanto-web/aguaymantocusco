@@ -50,3 +50,9 @@ export const navigation = [
 
 export const whatsappUrl = (message: string = contact.whatsapp.defaultMessage) =>
   `https://wa.me/${contact.whatsapp.number}?text=${encodeURIComponent(message)}`;
+
+/** Video de ejemplo (YouTube). Reemplazar por el video institucional. */
+export const promoVideo = {
+  youtubeId: "Q9hFoMARo3A",
+  label: "Ver video",
+};
