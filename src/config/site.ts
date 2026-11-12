@@ -13,23 +13,23 @@ export const company = {
 export const contact = {
   whatsapp: {
     /** Número en formato internacional, solo dígitos. Ej: 51999888777 */
-    number: "51961316585",
-    display: "961316585",
+    number: "51999999999",
+    display: "[WHATSAPP]",
     defaultMessage:
       "Hola, estoy interesado en sus productos de aguaymanto y quisiera recibir información.",
     label: "¿Necesitas información?",
   },
   phone: {
-    display: "+51 961 316 585",
-    href: "tel:+51961316585",
+    display: "[TELÉFONO]",
+    href: "tel:+51000000000",
   },
   email: {
-    display: "info@AGUAYMANTOPERU.con.pe",
-    href: "mailto:info@AGUAYMANTOPERU.con.pe",
+    display: "[CORREO]",
+    href: "mailto:contacto@example.com",
   },
-  address: "Comunidad Ccoyllor/N",
-  city: "Limatambo - Anta - Cusco",
-  schedule: "8:00 a.m. a 4:30 p.m.",
+  address: "[DIRECCIÓN]",
+  city: "[CIUDAD], Perú",
+  schedule: "[HORARIO]",
 };
 
 export const socials = [
