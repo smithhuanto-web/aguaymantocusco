@@ -36,7 +36,7 @@ function ContactPage() {
     { icon: MessageCircle, label: "WhatsApp", value: contact.whatsapp.display, href: whatsappUrl(), external: true },
     { icon: Phone, label: "Teléfono", value: contact.phone.display, href: contact.phone.href },
     { icon: Mail, label: "Correo electrónico", value: contact.email.display, href: contact.email.href },
-    { icon: MapPin, label: "Dirección", value: `${contact.address}, ${contact.city}` },
+    { icon: MapPin, label: "Dirección", value: contact.city ? `${contact.address}, ${contact.city}` : contact.address },
     { icon: Clock, label: "Horario de atención", value: contact.schedule },
   ];
 
