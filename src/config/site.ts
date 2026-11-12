@@ -29,7 +29,7 @@ export const contact = {
   },
   address: "comunidad ccoyllor/N limatambo -anta -cusco",
   city: "",
-  schedule: "8:00 a.m. a 4:30 p.m.",
+  schedule: "Lunes a viernes: 8:00 a.m. a 12:30 p.m. y 1:00 p.m. a 4:30 p.m.",
 };
 
 export const socials = [
