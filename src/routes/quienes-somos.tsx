@@ -42,7 +42,7 @@ function AboutPage() {
 
       <section id="empresa" className="container-site grid items-center gap-12 py-20 lg:grid-cols-2 lg:py-28">
         <div>
-          <SectionTitle eyebrow="Nuestra empresa" title="Producimos y comercializamos aguaymanto de calidad" />
+          <SectionTitle eyebrow="Nuestra empresa exitosa" title="Producimos y comercializamos aguaymanto de calidad de limatambo" />
           <Reveal className="text-muted-foreground mt-6 space-y-4 leading-relaxed">
             <p>
               Somos una empresa peruana dedicada a la producción, comercialización y venta de
